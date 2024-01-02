@@ -40,5 +40,4 @@ public record Transacao(
                 id, tipo, data, valor, cpf,
                 cartao, new Time(date.getTime()), donoDaLoja, nomeDaLoja);
     }
-
 }

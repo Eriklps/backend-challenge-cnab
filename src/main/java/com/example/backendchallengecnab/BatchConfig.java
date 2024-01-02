@@ -134,5 +134,4 @@ public class BatchConfig {
         jobLauncher.afterPropertiesSet();
         return jobLauncher;
     }
-
 }
