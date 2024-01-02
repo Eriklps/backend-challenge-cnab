@@ -1,4 +1,4 @@
-package com.example.backendchallengecnab;
+package com.example.backendchallengecnab.job;
 
 import com.example.backendchallengecnab.entity.Transacao;
 import com.example.backendchallengecnab.entity.TransacaoCNAB;
