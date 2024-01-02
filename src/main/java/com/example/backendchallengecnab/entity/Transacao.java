@@ -6,19 +6,16 @@ import java.sql.Time;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.relational.core.mapping.Column;
-
 public record Transacao(
-        @Id Long id,
+        Long id,
         Integer tipo,
         Date data,
         BigDecimal valor,
         Long cpf,
         String cartao,
         Time hora,
-        @Column("dono_loja") String donoDaLoja,
-        @Column("nome_loja") String nomeDaLoja) {
+        String donoDaLoja,
+        String nomeDaLoja) {
 
     public Transacao withValor(BigDecimal valor) {
         return new Transacao(
@@ -43,3 +40,5 @@ public record Transacao(
                 id, tipo, data, valor, cpf,
                 cartao, new Time(date.getTime()), donoDaLoja, nomeDaLoja);
     }
+
+}
