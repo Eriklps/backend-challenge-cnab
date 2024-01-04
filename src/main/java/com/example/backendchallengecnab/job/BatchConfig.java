@@ -24,8 +24,6 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.transaction.PlatformTransactionManager;
 
-import com.example.backendchallengecnab.entity.Transacao;
-import com.example.backendchallengecnab.entity.TransacaoCNAB;
 import com.example.backendchallengecnab.entity.TipoTransacao;
 
 import java.math.BigDecimal;

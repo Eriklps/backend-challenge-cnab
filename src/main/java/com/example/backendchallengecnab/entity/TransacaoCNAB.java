@@ -11,4 +11,5 @@ public record TransacaoCNAB(
         String hora,
         String donoDaLoja,
         String nomeDaLoja) {
+
 }
