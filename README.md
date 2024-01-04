@@ -12,4 +12,4 @@ The project was based on [this challenge](https://github.com/Pagnet/desafio-back
 - [Spring Batch](https://spring.io/projects/spring-batch)
 - [MySQL](https://www.mysql.com)
 
-Project implemented for study purposes, following the instructions in this [playlist](https://www.youtube.com/playlist?list=PLiFLtuN04BS1c-JvhKFxYyeD-GVtnwUcx) (just the backend).
+Project implemented for study purposes, following the instructions in this [playlist](https://www.youtube.com/playlist?list=PLiFLtuN04BS1c-JvhKFxYyeD-GVtnwUcx) (only backend).
